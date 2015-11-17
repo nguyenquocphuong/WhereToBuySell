@@ -1,17 +1,47 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contact Us";
+    ViewBag.Message = "How to contact us:";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="row">
+    <h2>@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+</div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="row">
+    <div class="col-md-6">
+        <address>
+            1115-1525 Alta Vista Drive<br />
+            Ottawa, Ontario, Cananda K1G 0G1<br />
+            <abbr title="Phone">P:</abbr>
+            343-777-3153
+        </address>
+
+        <address>
+            <strong>Support:</strong>   <a href="mailto:n.q.phuong88@gmail.com">n.q.phuong88@gmail.com</a><br />
+            <strong>Marketing:</strong> <a href="mailto:n.q.phuong88@gmail.com">n.q.phuong88@gmail.com</a>
+        </address>
+    </div>
+    <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.9448591147607!2d-75.65815298476298!3d45.41045149504983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce058688ded2f3%3A0xc03cde44869d7dcf!2sOttawa%2C+ON+K1G+0G1!5e0!3m2!1sen!2sca!4v1447727915613" class="GoogleMap" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<style>
+    .GoogleMap {
+        width: 100%;
+    }
+</style>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(
+            function () {
+                var cw = $('.GoogleMap').width();
+                $('.GoogleMap').css({
+                    'height': 3 / 4 * cw + 'px'
+                });
+            }
+        );
+    </script>
+}

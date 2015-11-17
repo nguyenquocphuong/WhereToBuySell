@@ -1,0 +1,9 @@
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\BusinessModels.dll.config
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\BusinessModels.dll
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\BusinessModels.pdb
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\EntityFramework.dll
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\EntityFramework.xml
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\obj\Debug\BusinessModels.dll
+C:\Dropbox\Works\WhereToBuySell\BusinessModels\obj\Debug\BusinessModels.pdb

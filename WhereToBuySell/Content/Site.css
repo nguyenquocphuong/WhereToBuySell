@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.model-action{
+    text-align:right;
+}

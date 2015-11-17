@@ -4056,7 +4056,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 
-.navbar-header:before,
+.navbar-header:before,.navbar-collapse
 .navbar-header:after {
   display: table;
   content: " ";
